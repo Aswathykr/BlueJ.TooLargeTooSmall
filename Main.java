@@ -18,7 +18,7 @@ public class Main
         System.out.println("Welcome to Number guessing Game");
         System.out.println("Enter '-1' to exit");
         Scanner scanner = new Scanner(System.in);
-        int winNumber = 7;
+        int winNumber = new Random().nextInt(21);
         int nTries = 0;
         while(true)
         {
